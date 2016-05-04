@@ -12,4 +12,4 @@ You need to download consul image as well
 
 Run it with docker-compose up -d 
 
-First commit. To be improved. 
+First commit. Use it only on testing purpose.  

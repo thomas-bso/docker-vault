@@ -1,0 +1,12 @@
+version: '2'
+services:
+  vault:
+    build: .
+    ports:
+      - "8200:8200"
+    depends_on:
+      - consul
+  consul:
+    image: mcth/consul
+    ports:
+      - "8500:8500"
